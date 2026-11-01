@@ -1,0 +1,13 @@
+{
+  "name": "Hunan Huaxing 32700-6000mAh LFP (HX-TS-066)",
+  "evidence": "DS = datasheet clause; confirm the exact SKU you buy matches this sheet",
+  "cap_Ah": 6.0, "v_nom": 3.2, "mass_kg": 0.140, "r_dc_max": 0.016,
+  "i_cont_max": 18.0, "t_dis_max": 60.0, "d": 0.0322, "L": 0.0705,
+  "cp": 1109.0, "price_inr": 315.0,
+  "rules": [
+    {"id": "DS-2.11", "text": "Continuous discharge <= 18 A for <= 20 min"},
+    {"id": "DS-2.14", "text": "Discharge only between -20 and 60 C"},
+    {"id": "DS-2.14", "text": "Charge <= 0.5C when cell is 45-60 C; <= 1C at 15-45 C"},
+    {"id": "DS-4.5/4.7", "text": "Cycle life 2200 @ ~30 C vs 1000 @ 55 C (1C)"}
+  ]
+}
